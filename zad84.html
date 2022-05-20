@@ -1,0 +1,33 @@
+<head>
+<title>
+Przykład ->pokaz formularza
+</title>
+<script language="JavaScript">
+function laskowska_start{
+  {
+  start_las = new Date();
+  poczatek_las=start_las.getTime() }
+
+  function laskowska_stop {
+  stop_las = new Date();
+  koniec_las=stop_las.getTime()
+  roznica_las=koniec_las-poczatek_las;
+  pokaz1.innerHTML=roznica_las/1000+" s"; }
+
+</script>
+</head>
+<body >
+  <script language="JavaScript">
+  dzis_las = new Date();
+document.write("<br>Aktualny czas : ",dzis_las.getHours(),":",dzis_las.getMinutes());
+</script>
+<form>
+  <input type="button" name="Button1" value="START stoper" onclick="laskowska_start()">
+
+  <input type="button" name="Button2" value="STOP stoper" onclick="laskowska_stop()"><br>
+</form>
+<table >
+  <tr id="pokaz1"></tr>
+</table>
+</body>
+</html>

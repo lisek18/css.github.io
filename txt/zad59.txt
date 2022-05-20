@@ -1,0 +1,38 @@
+<html>
+<head>
+    
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<style>
+ @import url("css/zad59.css");
+ </style>
+</head>
+<body>
+<a> Oliwia Laskowska 28.03.2022r. </a><br>
+    <a href="https://zse.edu.gdansk.pl/pl?msclkid=8ea709acaec711ecbb94195d6e6fad0b" target="blank">Strona szkoły</a><br>
+	<a href="https://www.kuratorium.gda.pl/?msclkid=9a22789baec711ec866e6ac12a065383">Strona kuratorium</a>
+	
+	<!-- text-decoration: none; → Brak "dekoracji" tekstu tzn. brak linii.
+ text-decoration: underline; →  Dekoracja tekstu, linia pod tekstem "podkreslenie"
+Oliwia Laskowska !-->
+</body>
+</html>
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+a
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link 
+{
+color: blue;
+}
+
+<!-- text-decoration: none; → Brak "dekoracji" tekstu tzn. brak linii.
+ text-decoration: underline; →  Dekoracja tekstu, linia pod tekstem "podkreslenie"
+Oliwia Laskowska !-->

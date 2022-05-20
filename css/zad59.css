@@ -1,0 +1,13 @@
+a
+{
+font-size: 18pt;
+text-decoration: none;
+}
+A:link 
+{
+color: blue;
+}
+
+<!-- text-decoration: none; → Brak "dekoracji" tekstu tzn. brak linii.
+ text-decoration: underline; →  Dekoracja tekstu, linia pod tekstem "podkreslenie"
+Oliwia Laskowska !-->

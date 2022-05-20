@@ -1,0 +1,31 @@
+
+
+<HTML>
+ <HEAD>
+
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style >
+  @import url("css/zad62.css");
+ </style>
+ </HEAD>
+<BODY>
+<p lang="pl">Jak się masz</p>
+<p lang="en">How are you</p>
+</BODY>
+</HTML>
+
+!!!!!!!!!!!!!!!!!!!!!!
+p
+{
+font-size:14pt;
+color:navy;
+}
+p:lang(pl)
+{
+font-weight:bold;
+color:black;
+}
+p:lang(en)
+{
+font-style:italic;
+} 

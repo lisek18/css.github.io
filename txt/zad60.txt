@@ -1,0 +1,58 @@
+
+
+<HTML>
+ <HEAD>
+
+ <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+ <style >
+  @import url("css/zad60.css");
+ </style>
+ </HEAD>
+<BODY>
+<div id="blok1">blok1 Oliwia Laskowska</div>
+<div id="blok2">blok2 Oliwia Laskowska</div>
+<div id="blok3">blok3 Oliwia Laskowska</div>
+
+<!-- hover;  zmiany pewnych elementów po najechaniu na nie urz¹dzeniem
+wskazuj¹cym (np. mysz¹), np. odsy³acz, nad którym zatrzymano kusor
+lub element blokowy DIV.
+Oliwia Laskowska !-->
+</BODY>
+</HTML>
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ div#blok1 {
+ width: 614px;
+ background : green;
+ }
+ div#blok2 {
+ width: 614px;
+ background : green;
+ }
+ div#blok3 {
+ width: 614px;
+ background : green;
+ }
+
+div#blok1:hover{
+background : blue;
+font-size: 19mm;
+}
+
+div#blok2:hover{
+background : silver;
+font-size: 19mm;
+}
+
+div#blok3:hover{
+background : #00ff00;
+font-size: 19mm;
+}
+
+
+<!-- hover;  zmiany pewnych elementów po najechaniu na nie urz¹dzeniem
+wskazuj¹cym (np. mysz¹), np. odsy³acz, nad którym zatrzymano kusor
+lub element blokowy DIV.
+Oliwia Laskowska !-->
